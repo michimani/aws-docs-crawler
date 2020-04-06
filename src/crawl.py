@@ -148,7 +148,7 @@ def get_service_item(service_soup):
 
         print(f'  {s_full_name}')
         service_item['title'] = s_full_name
-        service_item['doc_index_url'] = s_link
+        service_item['index_url'] = s_link
 
         if exists_docs is True:
             service_docs = get_docs(s_link)
